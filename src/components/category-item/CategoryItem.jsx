@@ -8,7 +8,7 @@ const CategoryItem = ({ category }) => {
           backgroundImage: `url(${imageUrl})`
         }}/>
         <div className="category-body-container">
-          <h2 className="text-2xl font-semibold">{title}</h2>
+          <h2 className="text-2xl font-semibold capitalize">{title}</h2>
           <p>Shop Now</p>
         </div>
       </div>
