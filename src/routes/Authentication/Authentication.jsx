@@ -7,7 +7,7 @@ import {
 
 import SignUpForm from "../../components/SignUpForm/SignUpForm";
 
-const SignIn = () => {
+const Authentication = () => {
 
   const logGoogleUser = async () => {
     const { user } = await signInWithGooglePopup();
@@ -28,4 +28,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Authentication;
